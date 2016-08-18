@@ -53,7 +53,8 @@
         android:textSize="24sp"
         android:onClick="reRoll"
         android:paddingTop="20dp"
-        android:paddingBottom="20dp" />
+        android:paddingBottom="20dp"
+        android:textColor="#000" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,9 +64,9 @@
         android:id="@+id/line1"
         android:textColor="#FFF"
         android:singleLine="true"
+        android:layout_marginTop="46dp"
         android:layout_below="@+id/view"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -131,13 +132,14 @@
         android:layout_height="wrap_content"
         android:text="Reset"
         android:id="@+id/button2"
-        android:background="#a2d3a2"
+        android:background="#94c894"
         android:onClick="resetMesosValue"
         android:layout_below="@+id/textView2"
         android:layout_toRightOf="@+id/textView3"
         android:layout_above="@+id/mesosText"
         android:layout_alignRight="@+id/space2"
-        android:layout_alignEnd="@+id/space2" />
+        android:layout_alignEnd="@+id/space2"
+        android:textColor="#000" />
 
     <TextView
         android:layout_width="wrap_content"
